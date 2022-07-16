@@ -1,0 +1,141 @@
+.A{
+	text-align:center;
+	color:#002dff;
+	table-layout:block;
+	margin-top:10px;
+	font-size:60px;
+	margin-left:30px
+}
+*{
+   margin:0px;
+   padding:0px;
+} 
+body{
+	background-size:cover;
+	position:relative;
+	background-color:white;
+}
+body::before{
+	position:absolute;
+	content:"";
+	background:white;
+	width:100%;
+	height:90vh;
+	top:100%;
+	opacity:0.3;
+}
+form{
+	width:460px;
+	height:570px;
+	margin-left:38%;
+	margin-right:10%;
+	box-shadow:0px 4px 10px 3px #aaa;
+	background:white;
+	border-radius:10px;
+	margin-top:10px;
+	z-index:5;
+	position:relative
+}
+.a-1{
+font-size:28px;
+padding:10px 10px 0px 15px;
+margin-left:100px;
+}
+.a-2{
+color:#606770;
+margin-left:170px;
+margin-bottom:10px;
+margin-top:5px;
+}
+hr{
+	margin-top:10px;
+	opacity:100%;
+}
+.b{
+	width:220px;
+	height:36px;
+	border-radius:5px;
+	background:#e6e6ee;
+	border:1px solid #aaa;
+	font-size:15px;
+	margin-left:0px;
+    margin-right:2px;
+	margin-top:5px;
+    margin-bottom:5px;
+	padding-left:4px
+}
+.b-2{
+	width:428px;
+	background:#e6e6e6;
+	height:35px;
+	border:1px solid;
+	border-radius:5px;
+	font-size:15px;
+	margin-left:12px;
+	margin-top:10px;
+	padding-left:10px;
+}
+.c-1{
+	margin-top:10px;
+	font-size:15px;
+}
+select{
+	width:125px;
+	margin-left:10px;
+	margin-top:10px;
+	height:34px;
+	font-size:15px;
+	background:none;
+	border:1px solid #aaa;
+	border-radius:5px
+}
+.c{
+	margin-top:10px;
+	font-size:12px;
+}
+#all_gender{
+    width:110px;
+	height:25px;
+	border:1px solid #aaa;
+	padding:10px 0px 0px 10px;
+	border-radius:5px
+}
+.female{
+	margin-top:5px;
+	margin-left:10px;
+}
+.male{
+	margin-top:-38px;
+	margin-left:150px;
+}
+.other{
+	margin-left:290px;
+	margin-right:10px;
+	margin-top:-38px;
+}
+.d{
+	text-decoration:none;
+	color:gray; 
+	margin-left:10px; 
+	margin-top:10px
+}
+.submit{
+	width:200px;
+	height:40px;
+	background:#0ebd02;
+	border-radius:5px;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	border:none;
+	margin-left:120px;
+	margin-top:20px;
+}	
+.submit:hover{
+	opacity:60%; 
+}
+.m{
+	margin-left:123px;
+	margin-top:15px;
+	color:blue
+}
